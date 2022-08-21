@@ -50,4 +50,4 @@ app.listen(PORT, (req, res) => {
  },
 ```
 
-- `npm star` type in terminal
+- `npm start` type in terminal
