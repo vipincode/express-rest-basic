@@ -39,3 +39,15 @@ app.listen(PORT, (req, res) => {
   console.log(`App is running in port ${PORT}`);
 });
 ```
+
+### Run application
+
+- must add these scrinpt in json
+
+```
+ "scripts": {
+   "start": "nodemon --experimental-json-modules --exec babel-node index.js"
+ },
+```
+
+- `npm star` type in terminal
